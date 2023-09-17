@@ -7,13 +7,13 @@ export default function SettingsPathTest() {
   
   return (
     <GluestackUIProvider>
-    <VStack space="lg" padding={"$3"}>
-      <Heading>Settings Path page</Heading>
-      <Text>glob: {glob}</Text>
-      <Text>local: {local}</Text>
-      <Divider w="$full" variant="horizontal" sx={{bg: "$red500"}} />
-      <Link href="/">Index</Link>
-    </VStack>
-  </GluestackUIProvider>
+      <VStack space="lg" padding={"$3"}>
+        <Heading>Settings Path page</Heading>
+        <Text>glob: {glob}</Text>
+        <Text>local: {local}</Text>
+        <Divider w="$full" variant="horizontal" sx={{bg: "$red500"}} />
+        <Link href="/">Index</Link>
+      </VStack>
+    </GluestackUIProvider>
   );
 }
