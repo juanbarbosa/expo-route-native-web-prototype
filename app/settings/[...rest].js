@@ -12,7 +12,7 @@ export default function SettingsPathTest() {
         <Text>glob: {glob}</Text>
         <Text>local: {local}</Text>
         <Divider w="$full" variant="horizontal" sx={{bg: "$red500"}} />
-        <Link href="/">Index</Link>
+        <Link href="/">Settings</Link>
       </VStack>
     </GluestackUIProvider>
   );
